@@ -1,5 +1,5 @@
 # UIRotateEffect
-Unity3d rotate vertices of graphic to 90 degrees
+Unity3d script to rotate vertices of UI.Graphic to 90 degrees
 
 Image. sliced
 
