@@ -11,6 +11,7 @@ namespace Plugins.mitaywalle.Runtime.UI.Effects
         public override void ModifyMesh(VertexHelper verts)
         {
             if (!_rotate) return;
+            if (!isActiveAndEnabled) return;
 
             RectTransform rt = transform as RectTransform;
             Rect rect = rt.rect;
