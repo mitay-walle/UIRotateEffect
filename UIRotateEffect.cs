@@ -22,7 +22,7 @@ namespace Plugins.mitaywalle.Runtime.UI.Effects
 
             for (int i = 0; i < verts.currentVertCount; ++i)
             {
-                UIVertex uiVertex = new();
+                UIVertex uiVertex = new UIVertex();
                 verts.PopulateUIVertex(ref uiVertex, i);
 
                 Vector3 position = uiVertex.position;
